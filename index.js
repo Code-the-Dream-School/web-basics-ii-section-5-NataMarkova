@@ -111,6 +111,7 @@ const disableBoardPlayer2 = () => {
 // creating the board for player 1
 const board_Player1 = document.getElementById('board_player1');
 let turnBnt = document.getElementById('turn_player');
+let player;
 let currentPlayer = player1;
 let opponent = player2;
 let livesPlayer1;
